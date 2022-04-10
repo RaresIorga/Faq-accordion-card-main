@@ -11,15 +11,30 @@ body{
     background: linear-gradient(360deg,hsl(273, 75%, 66%),hsl(240, 73%, 65%))  100% 100% no-repeat;
     margin:0.7rem 0;
 }
-img{
-    object-fit: cover;
+#tapet{
+    position:absolute;
+    width:25rem;
+    height:20rem;
+    transform: translate(0%,50%);
+}
+#cub{
+    position: absolute;
+    transform: translate(-65%,100%);
+    z-index: 3;
+}
+#poza{
+    position: absolute;
+    transform: translate(-10%,20%);
+    z-index: 2;
+    width:25rem;
+    height:20rem;
 }
 p{
     margin:0 0 0.7rem 0;
 }
 .container{
     display:flex;
-    margin:10rem auto;
+    margin:5rem auto;
     background-color: rgb(248, 244, 244);
     max-width: 50rem;
     margin-left: auto;
@@ -39,7 +54,6 @@ p{
     display:flex;
     flex-direction: row;
     width: 50%;
-    height: 100%;
     overflow: hidden;
 }
 .content{
@@ -69,6 +83,6 @@ p{
 footer {
     position: absolute;
     bottom: 0;
-    margin-bottom: auto;
   }
+
 
